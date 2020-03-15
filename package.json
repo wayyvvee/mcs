@@ -1,0 +1,19 @@
+{
+  "name": "mcbot",
+  "version": "0.1.0",
+  "description": "minecraft server stats bot please kill me",
+  "main": "mcs.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "base64-img": "^1.0.4",
+    "discord.js": "^12.0.2",
+    "mcsrv": "^1.0.1",
+    "http": "^0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node mcs.js"
+  },
+  "author": "Wayveyx",
+  "license": "ISC"
+}
