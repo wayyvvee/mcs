@@ -6,7 +6,7 @@ const pfx = "s;";
 bot.on("ready", () => {
 console.log("Running");
 bot.user.setActivity("Minecraft");
-bot.channels.get('564951236487675914').send(`MCStats has been restarted`);
+//bot.channels.get('564951236487675914').send(`MCStats has been restarted`);
 });
 
 bot.on("message", async message => {
@@ -20,11 +20,12 @@ try{
 let commandFile = require(`./commands/${cmd}.js`);
 commandFile.run(bot, message, args);
 } catch(e) {
-bot.channels.get('565011678203215892').send(new Discord.RichEmbed()
+/*bot.channels.get('565011678203215892').send(new Discord.RichEmbed()
 .setTitle(`Server: ${message.guild.name}`)
 .setAuthor(message.author.tag)                                    
 .setDescription(e.message)
 .setColor([255, 0, 0]));
+*/
 if(message.guild.id == '264445053596991498') return; 
  let err = new Discord.RichEmbed()
 .setTitle('Error')
