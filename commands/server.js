@@ -20,8 +20,8 @@ exports.run = async (bot, message, args) => {
 		online = "Yes";
 		axios.get(`${process.env.WEBURL}/getInfo.php?server=${args.join("")}`)
 		.then((res) => {
-			console.log(`statusCode: ${res.statusCode}`)
-			console.log(res)
+			//console.log(`statusCode: ${res.statusCode}`)
+			//console.log(res)
 			if(!res.data) {
 				message.channel.send(new Discord.RichEmbed()
 				.setTitle("Error")
