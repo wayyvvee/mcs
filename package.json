@@ -4,7 +4,7 @@
   "description": "minecraft server stats bot please kill me",
   "main": "mcs.js",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "base64-img": "^1.0.4",
     "discord.js": "^11.6.2",
     "http": "^0.0.0",
